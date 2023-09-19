@@ -5,11 +5,10 @@ namespace ElFactory\AfghanistanProvinces\Database\Factories;
 use ElFactory\AfghanistanProvinces\Models\Province;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * @extends Factory<Province>
- */
-class ProvinceFactory
+class ProvinceFactory extends Factory
 {
+    protected $model = Province::class;
+
     /**
      * Define the model's default state.
      *

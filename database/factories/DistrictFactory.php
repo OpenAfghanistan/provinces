@@ -8,8 +8,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends Factory<District>
  */
-class DistrictFactory
+class DistrictFactory extends Factory
 {
+
+    protected $model = District::class;
+
     /**
      * Define the model's default state.
      *
