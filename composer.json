@@ -1,0 +1,41 @@
+{
+    "name": "el-factory/afghanistan-provinces",
+    "description": "Afghanistan provinces for laravel",
+    "keywords": [
+        "afghanistan",
+        "provinces",
+        "laravel",
+        "afghanistan provinces",
+        "afghanistan provinces for laravel",
+        "afghanistan provinces for laravel 8"
+    ],
+    "autoload": {
+        "psr-4": {
+            "ElFactory\\AfghanistanProvinces\\": "src/",
+            "ElFactory\\AfghanistanProvinces\\Database\\Seeders\\": "database/seeders/",
+            "ElFactory\\AfghanistanProvinces\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ElFactory\\AfghanistanProvinces\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hamidafghan",
+            "email": "abd.hamidafghan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "illuminate/database": ">=9.0"
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "ElFactory\\AfghanistanProvinces\\AfghanistanProvincesServiceProvider"
+          ]
+      }
+  }
+}
