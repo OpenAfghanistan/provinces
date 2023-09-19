@@ -3,6 +3,7 @@
 namespace ElFactory\AfghanistanProvinces\Database\Factories;
 
 use ElFactory\AfghanistanProvinces\Models\District;
+use ElFactory\AfghanistanProvinces\Models\Province;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -22,7 +23,8 @@ class DistrictFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'en_name' => fake()->name()
+            'en_name' => fake()->name(),
+            'province_id' => Province::factory()->create()
         ];
     }
 }
