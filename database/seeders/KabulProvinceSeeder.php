@@ -2,18 +2,21 @@
 
 namespace ElFactory\AfghanistanProvinces\Database\Seeders;
 
-use ElFactory\AfghanistanProvinces\Models\Province;
 use Illuminate\Database\Seeder;
+use ElFactory\AfghanistanProvinces\Models\Province;
 
-class DistrictsSeeder extends Seeder
+class KabulProvinceSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        // Kabul
-        Province::find(1)->districts()->createMany([
+        // Create province
+        $province = Province::create([
+            'name' => 'کابل',
+            'en_name' => 'Kabul',
+        ]);
+
+        // Create districts
+        $province->districts()->createMany([
             ['name' => 'بگرامی', 'en_name' => 'Bagrami'],
             ['name' => 'چهار آسیاب', 'en_name' => 'Chahar Asyab'],
             ['name' => 'ده سبز', 'en_name' => 'Deh Sabz'],
@@ -30,7 +33,5 @@ class DistrictsSeeder extends Seeder
             ['name' => 'شکردره', 'en_name' => 'Shakardara'],
             ['name' => 'سروبی', 'en_name' => 'Surobi'],
         ]);
-
-        // TODO: add other provinces
     }
 }
