@@ -44,7 +44,7 @@ class ProvincesSeeder extends Seeder
             PanjshirProvinceSeeder::class,
             ParwanProvinceSeeder::class,
             SamanganProvinceSeeder::class,
-            SarepolProvinceSeeder::class,
+            SarePolProvinceSeeder::class,
             TakharProvinceSeeder::class,
             UruzganProvinceSeeder::class,
             ZabulProvinceSeeder::class,
