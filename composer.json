@@ -1,6 +1,7 @@
 {
     "name": "el-factory/afghanistan-provinces",
     "description": "Afghanistan provinces for laravel",
+    "license": "MIT",
     "keywords": [
         "afghanistan",
         "provinces",
