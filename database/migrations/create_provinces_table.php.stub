@@ -12,16 +12,16 @@ return new class extends Migration {
     {
         Schema::create('provinces', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('en_name');
+            $table->string('name_en');
+            $table->string('name_dr');
             $table->timestamps();
         });
 
         Schema::create('districts', function (Blueprint $table) {
             $table->id();
             $table->foreignId('province_id')->constrained();
-            $table->string('name');
-            $table->string('en_name')->nullable();
+            $table->string('name_en');
+            $table->string('name_dr')->nullable();
             $table->timestamps();
         });
     }
