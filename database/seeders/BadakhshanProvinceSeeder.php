@@ -11,132 +11,42 @@ class BadakhshanProvinceSeeder extends Seeder
     {
         // Create province
         $province = Province::create([
-            "name_en"=> "Badakhshan",
-            "name_dr"=> "بدخشان",
+            'name' => 'بدخشان',
+            'en_name' => 'Badakhshan',
         ]);
 
         // Create districts
         $province->districts()->createMany([
-            [
-              "name_dr"=>"( مرکز ولایت بدخشان) فیض آباد",
-              "name_pa"=>"( مرکز ولایت بدخشان) فیض آباد",
-            ],
-            [
-              "name_en"=>"ARGO",
-              "name_dr"=>"ارگو",
-            ],
-            [
-              "name_en"=>"ARGHANJ KHWAH",
-              "name_dr"=>"ارغنجخواه",
-            ],
-            [
-              "name_en"=>"ARGHANJ KHWAH",
-              "name_dr"=>"ارغنجخواه",
-            ],
-            [
-              "name_en"=>"YAFTAL-E-SOFLA",
-              "name_dr"=>"یفتل سفلی",
-            ],
-            [
-              "name_en"=>"KHASH",
-              "name_dr"=>"خاش",
-            ],
-            [
-              "name_en"=>"BAHARAK",
-              "name_dr"=>"بهارک",
-            ],
-            [
-              "name_en"=>"DARAYIM",
-              "name_dr"=>"درایم",
-            ],
-            [
-              "name_en"=>"DARAYIM",
-              "name_dr"=>"درایم",
-            ],
-            [
-              "name_en"=>"KOHISTAN",
-              "name_dr"=>"کوهستان",
-            ],
-            [
-              "name_en"=>"YAWAN",
-              "name_dr"=>"یاوان",
-            ],
-            [
-              "name_en"=>"JURM",
-              "name_dr"=>"جرم",
-            ],
-            [
-              "name_en"=>"TASHKAN",
-              "name_dr"=>"تشکان",
-            ],
-            [
-              "name_en"=>"SHUHADA",
-              "name_dr"=>"شهدا",
-            ],
-            [
-              "name_en"=>"SHAHR-E-BUZURG",
-              "name_dr"=>"شهربزرگ",
-            ],
-            [
-              "name_en"=>"RAGHISTAN",
-              "name_dr"=>"راغستان",
-            ],
-            [
-              "name_en"=>"KISHM",
-              "name_dr"=>"کشم",
-            ],
-            [
-              "name_en"=>"WARDOOJ",
-              "name_dr"=>"وردوج",
-            ],
-            [
-              "name_en"=>"TAGAB",
-              "name_dr"=>"تگاب",
-            ],
-            [
-              "name_en"=>"YAMGAN",
-              "name_dr"=>"یمگان",
-            ],
-            [
-              "name_en"=>"SHIGHNAN",
-              "name_dr"=>"شغنان",
-            ],
-            [
-              "name_en"=>"KHWAHAN",
-              "name_dr"=>"خواهان",
-            ],
-            [
-              "name_en"=>"KUFAB",
-              "name_dr"=>"کوف آب",
-            ],
-            [
-              "name_en"=>"DARWAZ-E-PAYIN (MAIMAY)",
-              "name_dr"=>"درواز پائین مایمی",
-            ],
-            [
-              "name_en"=>"ESHKASHIM",
-              "name_dr"=>"اشکاشم",
-            ],
-            [
-              "name_en"=>"SHIKI",
-              "name_dr"=>"شکی",
-            ],
-            [
-              "name_en"=>"ZEBAK",
-              "name_dr"=>"زیباک",
-            ],
-            [
-              "name_en"=>"KIRAN WA MENJAN",
-              "name_dr"=>"کران ومنجان",
-            ],
-            [
-              "name_en"=>"DARWAZ-E-BALA (NESAY)",
-              "name_dr"=>"درواز بالا نسی",
-            ],
-            [
-              "name_en"=>"WAKHAN",
-              "name_dr"=>"واخان",
-            ]
+            [ 'name' => "( مرکز ولایت بدخشان) فیض آباد", "en_name' => "( مرکز ولایت بدخشان) فیض آباد" ],
+            [ 'en_name' => "ARGO", 'name' => "ارگو" ],
+            [ 'en_name' => "ARGHANJ KHWAH", 'name' => "ارغنجخواه" ],
+            [ 'en_name' => "ARGHANJ KHWAH", 'name' => "ارغنجخواه" ],
+            [ 'en_name' => "YAFTAL-E-SOFLA", 'name' => "یفتل سفلی" ],
+            [ 'en_name' => "KHASH", 'name' => "خاش" ],
+            [ 'en_name' => "BAHARAK", 'name' => "بهارک" ],
+            [ 'en_name' => "DARAYIM", 'name' => "درایم" ],
+            [ 'en_name' => "DARAYIM", 'name' => "درایم" ],
+            [ 'en_name' => "KOHISTAN", 'name' => "کوهستان" ],
+            [ 'en_name' => "YAWAN", 'name' => "یاوان" ],
+            [ 'en_name' => "JURM", 'name' => "جرم" ],
+            [ 'en_name' => "TASHKAN", 'name' => "تشکان" ],
+            [ 'en_name' => "SHUHADA", 'name' => "شهدا" ],
+            [ 'en_name' => "SHAHR-E-BUZURG", 'name' => "شهربزرگ" ],
+            [ 'en_name' => "RAGHISTAN", 'name' => "راغستان" ],
+            [ 'en_name' => "KISHM", 'name' => "کشم" ],
+            [ 'en_name' => "WARDOOJ", 'name' => "وردوج" ],
+            [ 'en_name' => "TAGAB", 'name' => "تگاب" ],
+            [ 'en_name' => "YAMGAN", 'name' => "یمگان" ],
+            [ 'en_name' => "SHIGHNAN", 'name' => "شغنان" ],
+            [ 'en_name' => "KHWAHAN", 'name' => "خواهان" ],
+            [ 'en_name' => "KUFAB", 'name' => "کوف آب" ],
+            [ 'en_name' => "DARWAZ-E-PAYIN (MAIMAY)", 'name' => "درواز پائین مایمی" ],
+            [ 'en_name' => "ESHKASHIM", 'name' => "اشکاشم" ],
+            [ 'en_name' => "SHIKI", 'name' => "شکی" ],
+            [ 'en_name' => "ZEBAK", 'name' => "زیباک" ],
+            [ 'en_name' => "KIRAN WA MENJAN", 'name' => "کران ومنجان" ],
+            [ 'en_name' => "DARWAZ-E-BALA (NESAY)", 'name' => "درواز بالا نسی" ],
+            [ 'en_name' => "WAKHAN", 'name' => "واخان" ]
         ]);
     }
 }
