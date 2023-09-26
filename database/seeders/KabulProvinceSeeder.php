@@ -2,8 +2,8 @@
 
 namespace ElFactory\AfghanistanProvinces\Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use ElFactory\AfghanistanProvinces\Models\Province;
+use Illuminate\Database\Seeder;
 
 class KabulProvinceSeeder extends Seeder
 {

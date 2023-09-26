@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class DistrictFactory extends Factory
 {
-
     protected $model = District::class;
 
     /**
@@ -24,7 +23,7 @@ class DistrictFactory extends Factory
         return [
             'name' => fake()->name(),
             'en_name' => fake()->name(),
-            'province_id' => Province::factory()->create()
+            'province_id' => Province::factory()->create(),
         ];
     }
 }

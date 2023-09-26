@@ -2,12 +2,12 @@
 
 namespace ElFactory\AfghanistanProvinces\Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use ElFactory\AfghanistanProvinces\Models\Province;
+use Illuminate\Database\Seeder;
 
 class KunduzProvinceSeeder extends Seeder
 {
-    public function run():void
+    public function run(): void
     {
         // Create province
         $province = Province::create([
