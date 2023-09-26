@@ -79,6 +79,7 @@ District::factory()->create();
 **Contribution Guide:**
 
 We welcome contributions to enhance this package. If you'd like to contribute by adding districts to any province, specific seeder files are available for each province to simplify the process.
+Please run the `./vendor/bin/pint` command before you push any piece of code.
 
 **License:**
 
