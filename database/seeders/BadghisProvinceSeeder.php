@@ -17,35 +17,13 @@ class BadghisProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            [
-              "name"=>"قلعه نو",
-              "en_name"=>"Qala-e-now",
-            ],
-            [
-              "name"=>"آبکمری",
-              "en_name"=>"Ab Kamari",
-            ],
-            [
-              "name"=>"مقر",
-              "en_name"=>"Muqur",
-            ],
-            [
-              "name"=>"قادس",
-              "en_name"=>"Qadis",
-            ],
-
-            [
-              "en_name"=>"Bala Murghab",
-              "name"=>"بالامرغاب",
-            ],
-            [
-              "name_en"=>"Jawand",
-              "name"=>"جوند",
-            ],
-            [
-              "name_en"=>"Ghormach",
-              "name"=>"غورماچ",
-            ],
+            ['name' => 'قلعه نو', 'en_name' => 'Qala-e-now'],
+            ['name' => 'آبکمری', 'en_name' => 'Ab Kamari'],
+            ['name' => 'مقر', 'en_name' => 'Muqur'],
+            ['name' => 'قادس', 'en_name' => 'Qadis'],
+            ['name' => 'بالامرغاب', 'en_name' => 'Bala Murghab'],
+            ['name' => 'جوند', 'name_en' => 'Jawand'],
+            ['name' => 'غورماچ', 'name_en' => 'Ghormach'],
         ]);
     }
 }
