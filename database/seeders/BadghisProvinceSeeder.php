@@ -22,8 +22,8 @@ class BadghisProvinceSeeder extends Seeder
             ['name' => 'مقر', 'en_name' => 'Muqur'],
             ['name' => 'قادس', 'en_name' => 'Qadis'],
             ['name' => 'بالامرغاب', 'en_name' => 'Bala Murghab'],
-            ['name' => 'جوند', 'name_en' => 'Jawand'],
-            ['name' => 'غورماچ', 'name_en' => 'Ghormach'],
+            ['name' => 'جوند', 'en_name' => 'Jawand'],
+            ['name' => 'غورماچ', 'en_name' => 'Ghormach'],
         ]);
     }
 }
