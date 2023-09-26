@@ -11,41 +11,40 @@ class BadghisProvinceSeeder extends Seeder
     {
         // Create province
         $province = Province::create([
-          "name_en"=> "Badghis",
-          "name_dr"=> "بادغیس",
+            'name' => 'بادغيس',
+            'en_name' => 'Badghis',
         ]);
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
             [
-              "name_en"=>"PROVINCIAL CAPITAL OF  BADGHIS ( QALA-E-NOW )",
-              "name_dr"=>"( مرکز ولایت بادغیس) قلعه نو",
+              "name"=>"قلعه نو",
+              "en_name"=>"Qala-e-now",
             ],
             [
-              "name_en"=>"AB KAMARI",
-              "name_dr"=>"آبکمــری",
+              "name"=>"آبکمری",
+              "en_name"=>"Ab Kamari",
             ],
             [
-              "name_en"=>"MUQUR",
-              "name_dr"=>"مقر",
+              "name"=>"مقر",
+              "en_name"=>"Muqur",
             ],
             [
-              "name_en"=>"QADIS",
-              "name_dr"=>"قادس",
+              "name"=>"قادس",
+              "en_name"=>"Qadis",
             ],
 
             [
-              "name_en"=>"BALA MURGHAB",
-              "name_dr"=>"بالامــرغــاب",
+              "en_name"=>"Bala Murghab",
+              "name"=>"بالامرغاب",
             ],
             [
-              "name_en"=>"JAWAND",
-              "name_dr"=>"جونـد",
+              "name_en"=>"Jawand",
+              "name"=>"جوند",
             ],
             [
-              "name_en"=>"GHORMACH",
-              "name_dr"=>"غـورمــاچ",
+              "name_en"=>"Ghormach",
+              "name"=>"غورماچ",
             ],
         ]);
     }
