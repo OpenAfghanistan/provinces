@@ -44,7 +44,7 @@ class BadakhshanProvinceSeeder extends Seeder
             ['name' => 'زیباک', 'en_name' => 'Zebak'],
             ['name' => 'کران ومنجان', 'en_name' => 'Kiran wa Menjan'],
             ['name' => 'درواز بالا نسی', 'en_name' => 'Darwaz-e-Bala (Nesay)'],
-            ['name' => 'واخان', 'en_name' => 'Wakhan']
+            ['name' => 'واخان', 'en_name' => 'Wakhan'],
         ]);
     }
 }
