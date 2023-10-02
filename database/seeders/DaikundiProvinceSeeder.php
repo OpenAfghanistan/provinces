@@ -17,15 +17,15 @@ class DaikundiProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ["en_name"=>"PROVINCIAL CAPITAL OF DAYKUNDI ( NILI )","name"=>"(مرکز ولایت دایکندی) نیلی"],
-            ["en_name"=>"SHAHRISTAN", "name"=>"شهرستان"],
-            ["en_name"=>"PATOO","name"=>"پاتو"],
-            ["en_name"=>"ISHTERLAI","name"=>"اشترلی"],
-            ["en_name"=>"KHEDIR","name"=>"خدیر"],
-            ["en_name"=>"GETI","name"=>"گیتی"],
-            ["en_name"=>"MIRAMOR","name"=>"میرامور"],
-            ["en_name"=>"SANG-E-TAKHT","name"=>"سنگ تخت"],
-            ["en_name"=>"KEJRAN","name"=>"کیجران"],
+            ['name' => 'نیلی', 'en_name' => 'Nili'],
+            ['name' => 'شهرستان', 'en_name' => 'Shahristan'],
+            ['name' => 'پاتو', 'en_name' => 'Patoo'],
+            ['name' => 'اشترلی', 'en_name' => 'Ishterlai'],
+            ['name' => 'خدیر', 'en_name' => 'Khedir'],
+            ['name' => 'گیتی', 'en_name' => 'Geti'],
+            ['name' => 'میرامور', 'en_name' => 'Miramor'],
+            ['name' => 'سنگ تخت', 'en_name' => 'Sang-e-takht'],
+            ['name' => 'کیجران', 'en_name' => 'Kejran'],
         ]);
     }
 }
