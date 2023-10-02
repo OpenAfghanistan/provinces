@@ -9,8 +9,7 @@ class ProvincesSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public
-    function run(): void
+    public function run(): void
     {
         // call all seeders exits in seeder folder
         $this->call([

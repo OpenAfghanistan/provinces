@@ -14,7 +14,7 @@ class District extends Model
     protected $fillable = [
         'name',
         'en_name',
-        'province_id'
+        'province_id',
     ];
 
     public function province(): BelongsTo
