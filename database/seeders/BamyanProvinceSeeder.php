@@ -17,8 +17,14 @@ class BamyanProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ["en_name"=>"PROVINCIAL CAPITAL OF  BAMYAN ( BAMYAN )","name"=>"( مرکز ولایت بامیان) بامیان"],
+            ["en_name"=>"SHEBAR","name"=>"شیبر"],
+            ["en_name"=>"SAIGHAN","name"=>"سیغان"],
+            ["en_name"=>"KAHMARD","name"=>"کهمرد"],
+            ["en_name"=>"YAKAWLANG","name"=>"یکاولنگ"],
+            ["en_name"=>"PANJAB","name"=>"پنجاب"],
+            ["en_name"=>"PANJAB", "name"=>"پنجاب"],
+            ["en_name"=>"Yakawlang No. 2","name"=>"یکاولنگ ۲"]
         ]);
     }
 }
