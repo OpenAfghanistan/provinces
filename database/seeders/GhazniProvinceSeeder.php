@@ -17,8 +17,27 @@ class GhazniProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ["en_name"=>"PROVINCIAL CAPITAL OF  GHAZNI ( GHAZNI )","name"=>"(مرکز ولایت غزنی) غزنی"],
+            ["en_name"=>"WALI MOHAMMAD SHAHID KHUGYANI","name"=>"ولی محمد شهید خوگیانی"],
+            ["en_name"=>"KHWAJA OMARI","name"=>"خواجه عمری"],
+            ["en_name"=>"WAGHAZ","name"=>"واغظ"],
+            ["en_name"=>"DEH YAK","name"=>"ده یک"],
+            ["en_name"=>"JAGHATU","name"=>"جغتو"],
+            ["en_name"=>"ANDAR","name"=>"اندر"],
+            ["en_name"=>"ZANAKHAN", "name"=>"زنخان"],
+            ["en_name"=>"RASHIDAN","name"=>"رشیدان"],
+            ["en_name"=>"NAWUR","name"=>"ناهور"],
+            ["en_name"=>"QARA BAGH","name"=>"قره باغ"],
+            ["en_name"=>"GIRO","name"=>"گیرو"],
+            ["en_name"=>"AB BAND","name"=>"آب بند"],
+            ["en_name"=>"JAGHURI","name"=>"جاغوری"],
+            ["en_name"=>"MUQUR","name"=>"مقر"],
+            ["en_name"=>"MALISTAN","name"=>"مالستان"],
+            ["en_name"=>"GELAN","name"=>"گیلان"],
+            ["en_name"=>"AJRISTAN","name"=>"اجرستان"],
+            ["en_name"=>"NAWA","name"=>"ناوه"]
         ]);
     }
 }
+
+"
