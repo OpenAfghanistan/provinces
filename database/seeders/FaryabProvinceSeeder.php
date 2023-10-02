@@ -17,20 +17,20 @@ class FaryabProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ["en_name" => "PROVINCIAL CAPITAL OF FARYAB ( MAYMANA )","name" => "میمنه"],
-            ["en_name" => "KHWAJA SABZ POSH-E-WALI","name" => "خواجه سبز پوش ولی"],
-            ["en_name" => "ALMAR","name" => "المار"],
-            ["en_name" => "BIL CHIRAGH","name" => "بل چراغ"],
-            ["en_name" => "SHIRIN TAGAB","name" => "شرین تگاب"],
-            ["en_name" => "QAISAR", "name" => "قیصار"],
-            ["en_name" => "GURZIWAN","name" => "گرزیوان"],
-            ["en_name" => "DAWLAT ABAD","name" => "دولت آباد"],
-            ["en_name" => "KOHISTAN","name" => "کوهستان"],
-            ["en_name" => "QARAM QOLE","name" => "قرمقول"],
-            ["en_name" => "QURGHAN", "name" => "قرغان"],
-            ["en_name" => "ANDKHOY","name" => "اندخوی"],
-            ["en_name" => "KHAN CHARBAGH","name" => "خان چارباغ"],
-            ["en_name" => "PASHTUN KOT","name" => "پشتون کوت"]
+            ['en_name' => 'Maymana', 'name' => 'میمنه'],
+            ['en_name' => 'Khwaja Sabz Posh-e Wali', 'name' => 'خواجه سبز پوش ولی'],
+            ['en_name' => 'Almar', 'name' => 'المار'],
+            ['en_name' => 'Bil Chiragh', 'name' => 'بل چراغ'],
+            ['en_name' => 'Shirin Tagab', 'name' => 'شرین تگاب'],
+            ['en_name' => 'Qaisar', 'name' => 'قیصار'],
+            ['en_name' => 'Gurziwan', 'name' => 'گرزیوان'],
+            ['en_name' => 'Dawlat Abad', 'name' => 'دولت آباد'],
+            ['en_name' => 'Kohistan', 'name' => 'کوهستان'],
+            ['en_name' => 'Qaram Qole', 'name' => 'قرمقول'],
+            ['en_name' => 'Qurghan', 'name' => 'قرغان'],
+            ['en_name' => 'Andkhoy', 'name' => 'اندخوی'],
+            ['en_name' => 'Khan Charbagh', 'name' => 'خان چارباغ'],
+            ['en_name' => 'Pashtun Kot', 'name' => 'پشتون کوت'],
         ]);
     }
 }
