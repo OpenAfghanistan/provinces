@@ -39,5 +39,3 @@ class GhazniProvinceSeeder extends Seeder
         ]);
     }
 }
-
-"
