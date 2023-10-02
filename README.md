@@ -1,4 +1,7 @@
 # Laravel Package: Afghanistan Provinces & Districts
+
+NOTE: The pacakge is not ready for production.
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/el-factory/afghanistan-provinces.svg?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
 [![Total Downloads](https://img.shields.io/packagist/dt/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
 [![Repo Size](https://img.shields.io/github/repo-size/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
@@ -79,6 +82,7 @@ District::factory()->create();
 **Contribution Guide:**
 
 We welcome contributions to enhance this package. If you'd like to contribute by adding districts to any province, specific seeder files are available for each province to simplify the process.
+Please run the `./vendor/bin/pint` command before you push any piece of code.
 
 **License:**
 

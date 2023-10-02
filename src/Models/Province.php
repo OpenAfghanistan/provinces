@@ -13,7 +13,7 @@ class Province extends Model
 
     protected $fillable = [
         'name',
-        'en_name'
+        'en_name',
     ];
 
     public function districts(): HasMany
