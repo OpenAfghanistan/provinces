@@ -7,10 +7,10 @@ use ElFactory\AfghanistanProvinces\Models\Province;
 
 class BalkhProvinceSeeder extends Seeder
 {
-    public function run()=>void
+    public function run():void
     {
         // Create province
-        $province = Province=>=>create([
+        $province = Province::create([
             'name' => 'بلخ',
             'en_name' => 'Balkh',
         ]);
