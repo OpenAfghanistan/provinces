@@ -18,7 +18,7 @@ class ProvinceFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'en_name' => fake()->name()
+            'en_name' => fake()->name(),
         ];
     }
 }

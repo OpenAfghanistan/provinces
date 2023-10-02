@@ -38,5 +38,8 @@
               "ElFactory\\AfghanistanProvinces\\AfghanistanProvincesServiceProvider"
           ]
       }
-  }
+  },
+    "require-dev": {
+        "laravel/pint": "^1.13"
+    }
 }
