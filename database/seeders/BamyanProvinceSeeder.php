@@ -17,8 +17,14 @@ class BamyanProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'بامیان', 'en_name' => 'Bamyan'],
+            ['name' => 'شیبر', 'en_name' => 'Shebar'],
+            ['name' => 'سیغان', 'en_name' => 'Saighan'],
+            ['name' => 'کهمرد', 'en_name' => 'Kahmard'],
+            ['name' => 'یکاولنگ', 'en_name' => 'Yakawlang'],
+            ['name' => 'پنجاب', 'en_name' => 'Panjab'],
+            ['name' => 'پنجاب', 'en_name' => 'Panjab'],
+            ['name' => 'یکاولنگ ۲', 'en_name' => 'Yakawlang 2'],
         ]);
     }
 }
