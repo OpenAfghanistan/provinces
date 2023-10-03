@@ -2,10 +2,10 @@
 
 NOTE: The pacakge is not ready for production.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/el-factory/afghanistan-provinces.svg?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Total Downloads](https://img.shields.io/packagist/dt/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Repo Size](https://img.shields.io/github/repo-size/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Repo Size](https://img.shields.io/packagist/l/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/open-afghanistan/provinces.svg?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Total Downloads](https://img.shields.io/packagist/dt/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Repo Size](https://img.shields.io/github/repo-size/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Repo Size](https://img.shields.io/packagist/l/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
 
 
 **Introduction:**
@@ -24,7 +24,7 @@ To use this package, ensure your Laravel application meets the following require
 You can effortlessly install the "afghanistan-provinces" package using Composer. Open your terminal and run the following command:
 
 ```bash
-composer require el-factory/afghanistan-provinces
+composer require open-afghanistan/afghanistan-provinces
 ```
 
 **Migrations:**
@@ -32,7 +32,7 @@ composer require el-factory/afghanistan-provinces
 After successful installation, you need to publish the migration files. Use the following Artisan command:
 
 ```bash
-php artisan vendor:publish --tag=afghanistan-provinces-migrations
+php artisan vendor:publish --tag=provinces-migrations
 ```
 
 This command will generate a migration file that sets up the necessary tables for provinces and districts in your database.
