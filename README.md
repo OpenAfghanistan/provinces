@@ -10,7 +10,7 @@ NOTE: The pacakge is not ready for production.
 
 **Introduction:**
 
-The Laravel package "afghanistan-provinces" provides essential resources for managing Afghanistan's provinces and districts within your Laravel application. This package includes models, migrations, seeders, and factories to facilitate the integration of Afghanistan's administrative divisions into your project.
+The Laravel package "provinces" provides essential resources for managing Afghanistan's provinces and districts within your Laravel application. This package includes models, migrations, seeders, and factories to facilitate the integration of Afghanistan's administrative divisions into your project.
 
 **Requirements:**
 
@@ -86,6 +86,6 @@ Please run the `./vendor/bin/pint` command before you push any piece of code.
 
 **License:**
 
-The "afghanistan-provinces" package is open-source software distributed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use and modify it to suit your project's requirements.
+The "provinces" package is open-source software distributed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use and modify it to suit your project's requirements.
 
 Feel free to utilize this package to manage Afghanistan's administrative divisions effortlessly in your Laravel application.
