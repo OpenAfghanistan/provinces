@@ -44,7 +44,7 @@ The package includes a handy `ProvincesSeeder` that populates all 34 Afghanistan
 ```php
 // DatabaseSeeder.php
 
-use ElFactory\AfghanistanProvinces\Database\Seeders\ProvincesSeeder;
+use OpenAfghanistan\Provinces\Database\Seeders\ProvincesSeeder;
 
 $this->call(ProvincesSeeder::class);
 ```
@@ -54,7 +54,7 @@ If you only wish to seed specific provinces, you can call their individual seede
 ```php
 // DatabaseSeeder.php
 
-use ElFactory\AfghanistanProvinces\Database\Seeders\KabulProvinceSeeder;
+use OpenAfghanistan\Provinces\Database\Seeders\KabulProvinceSeeder;
 
 $this->call(KabulProvinceSeeder::class);
 ```
@@ -66,7 +66,7 @@ To facilitate testing, this package provides factories for both provinces and di
 For provinces:
 
 ```php
-use ElFactory\AfghanistanProvinces\Models\Province;
+use OpenAfghanistan\Provinces\Models\Province;
 
 Province::factory()->create();
 ```
@@ -74,7 +74,7 @@ Province::factory()->create();
 For districts:
 
 ```php
-use ElFactory\AfghanistanProvinces\Models\District;
+use OpenAfghanistan\Provinces\Models\District;
 
 District::factory()->create();
 ```

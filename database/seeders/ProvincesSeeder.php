@@ -1,6 +1,6 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces\Database\Seeders;
+namespace OpenAfghanistan\Provinces\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 

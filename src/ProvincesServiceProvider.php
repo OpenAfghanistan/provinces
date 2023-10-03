@@ -1,10 +1,10 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces;
+namespace OpenAfghanistan\Provinces;
 
 use Illuminate\Support\ServiceProvider;
 
-class AfghanistanProvincesServiceProvider extends ServiceProvider
+class ProvincesServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
@@ -15,6 +15,6 @@ class AfghanistanProvincesServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../database/migrations/create_provinces_table.php.stub' => database_path('migrations/'.date('Y_m_d_His', time()).'_create_provinces_table.php'),
-        ], 'afghanistan-provinces-migrations');
+        ], 'provinces-migration');
     }
 }

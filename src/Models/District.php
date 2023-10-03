@@ -1,8 +1,8 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces\Models;
+namespace OpenAfghanistan\Provinces\Models;
 
-use ElFactory\AfghanistanProvinces\Database\Factories\DistrictFactory;
+use OpenAfghanistan\Provinces\Database\Factories\DistrictFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
