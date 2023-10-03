@@ -2,8 +2,8 @@
 
 namespace ElFactory\AfghanistanProvinces\Database\Seeders;
 
-use Illuminate\Database\Seeder;
 use ElFactory\AfghanistanProvinces\Models\Province;
+use Illuminate\Database\Seeder;
 
 class KabulProvinceSeeder extends Seeder
 {
@@ -25,7 +25,7 @@ class KabulProvinceSeeder extends Seeder
             ['name' => 'استالف', 'en_name' => 'Istalif'],
             ['name' => 'شهر کابل', 'en_name' => 'Kabul (city)'],
             ['name' => 'کلکان', 'en_name' => 'Kalakan'],
-            ['name' => 'خاک جبار', 'en_name' => 'Khaki Jabbar'],
+            ['name' => 'خاک جبار', 'en_name' => 'Khaki-e-Jabbar'],
             ['name' => 'میر بچه کوت', 'en_name' => 'Mir Bacha Kot'],
             ['name' => 'موسهیی', 'en_name' => 'Mussahi'],
             ['name' => 'پغمان', 'en_name' => 'Paghman'],
