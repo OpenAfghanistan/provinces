@@ -17,7 +17,7 @@ class BadakhshanProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'فیض آباد', 'en_name' => 'Fayzabad'],
+            ['name' => 'فیض آباد', 'en_name' => 'Fayzabad', 'is_center' => true],
             ['name' => 'ارگو', 'en_name' => 'Argo'],
             ['name' => 'ارغنجخواه', 'en_name' => 'Arghanj Khwah'],
             ['name' => 'یفتل سفلی', 'en_name' => 'Yaftal-e-Sofla'],

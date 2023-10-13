@@ -17,7 +17,7 @@ class FaryabProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['en_name' => 'Maymana', 'name' => 'میمنه'],
+            ['en_name' => 'Maymana', 'name' => 'میمنه', 'is_center' => true],
             ['en_name' => 'Khwaja Sabz Posh-e Wali', 'name' => 'خواجه سبز پوش ولی'],
             ['en_name' => 'Almar', 'name' => 'المار'],
             ['en_name' => 'Bil Chiragh', 'name' => 'بل چراغ'],

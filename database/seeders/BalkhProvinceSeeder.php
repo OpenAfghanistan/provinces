@@ -17,7 +17,7 @@ class BalkhProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'مزار شریف', 'en_name' => 'Mazar-e Sharif'],
+            ['name' => 'مزار شریف', 'en_name' => 'Mazar-e Sharif', 'is_center' => true],
             ['name' => 'دهدادی', 'en_name' => 'Dehdadi'],
             ['name' => 'چارکنت', 'en_name' => 'Char kent'],
             ['name' => 'مارمل', 'en_name' => 'Marmul'],

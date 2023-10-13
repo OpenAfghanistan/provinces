@@ -17,7 +17,7 @@ class DaikundiProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'نیلی', 'en_name' => 'Nili'],
+            ['name' => 'نیلی', 'en_name' => 'Nili', 'is_center' => true],
             ['name' => 'شهرستان', 'en_name' => 'Shahristan'],
             ['name' => 'پاتو', 'en_name' => 'Patoo'],
             ['name' => 'اشترلی', 'en_name' => 'Ishterlai'],

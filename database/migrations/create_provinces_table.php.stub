@@ -22,6 +22,7 @@ return new class extends Migration {
             $table->foreignId('province_id')->constrained();
             $table->string('name');
             $table->string('en_name')->nullable();
+            $table->boolean('is_center')->default(false);
             $table->timestamps();
         });
     }

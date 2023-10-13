@@ -17,7 +17,7 @@ class FarahProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'مرکز فراه', 'en_name' => 'Farah'],
+            ['name' => 'مرکز فراه', 'en_name' => 'Farah', 'is_center' => true],
             ['name' => 'پشت رود', 'en_name' => 'Pushtrud'],
             ['name' => 'خاک سفید', 'en_name' => 'Khak-e Safed'],
             ['name' => 'قلعه کاه', 'en_name' => 'Qala-e Kah'],

@@ -17,7 +17,7 @@ class GhazniProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'غزنی', 'en_name' => 'Ghazni'],
+            ['name' => 'غزنی', 'en_name' => 'Ghazni', 'is_center' => true],
             ['name' => 'ولی محمد شهید خوگیانی', 'en_name' => 'Wali Mohammad Shahid Khugyani'],
             ['name' => 'خواجه عمری', 'en_name' => 'Khwaja Omari'],
             ['name' => 'واغظ', 'en_name' => 'Waghaz'],
