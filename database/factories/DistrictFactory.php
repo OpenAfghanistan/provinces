@@ -1,9 +1,9 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces\Database\Factories;
+namespace OpenAfghanistan\Provinces\Database\Factories;
 
-use ElFactory\AfghanistanProvinces\Models\District;
-use ElFactory\AfghanistanProvinces\Models\Province;
+use OpenAfghanistan\Provinces\Models\District;
+use OpenAfghanistan\Provinces\Models\Province;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**

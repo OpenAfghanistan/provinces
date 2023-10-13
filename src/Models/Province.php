@@ -1,8 +1,8 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces\Models;
+namespace OpenAfghanistan\Provinces\Models;
 
-use ElFactory\AfghanistanProvinces\Database\Factories\ProvinceFactory;
+use OpenAfghanistan\Provinces\Database\Factories\ProvinceFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;

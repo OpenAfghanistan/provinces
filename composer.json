@@ -1,25 +1,24 @@
 {
-    "name": "el-factory/afghanistan-provinces",
-    "description": "Afghanistan provinces for laravel",
+    "name": "open-afghanistan/provinces",
+    "description": "Afghanistan provinces laravel package",
     "license": "MIT",
     "keywords": [
         "afghanistan",
         "provinces",
         "laravel",
         "afghanistan provinces",
-        "afghanistan provinces for laravel",
-        "afghanistan provinces for laravel 8"
+        "afghanistan provinces laravel"
     ],
     "autoload": {
         "psr-4": {
-            "ElFactory\\AfghanistanProvinces\\": "src/",
-            "ElFactory\\AfghanistanProvinces\\Database\\Seeders\\": "database/seeders/",
-            "ElFactory\\AfghanistanProvinces\\Database\\Factories\\": "database/factories/"
+            "OpenAfghanistan\\Provinces\\": "src/",
+            "OpenAfghanistan\\Provinces\\Database\\Seeders\\": "database/seeders/",
+            "OpenAfghanistan\\Provinces\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ElFactory\\AfghanistanProvinces\\Tests\\": "tests/"
+            "OpenAfghanistan\\Provinces\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -35,7 +34,7 @@
     "extra": {
       "laravel": {
           "providers": [
-              "ElFactory\\AfghanistanProvinces\\AfghanistanProvincesServiceProvider"
+              "OpenAfghanistan\\Provinces\\ProvincesServiceProvider"
           ]
       }
   },

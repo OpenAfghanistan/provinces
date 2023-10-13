@@ -1,8 +1,8 @@
 <?php
 
-namespace ElFactory\AfghanistanProvinces\Database\Seeders;
+namespace OpenAfghanistan\Provinces\Database\Seeders;
 
-use ElFactory\AfghanistanProvinces\Models\Province;
+use OpenAfghanistan\Provinces\Models\Province;
 use Illuminate\Database\Seeder;
 
 class JawzjanProvinceSeeder extends Seeder

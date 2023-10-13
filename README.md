@@ -2,15 +2,15 @@
 
 NOTE: The pacakge is not ready for production.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/el-factory/afghanistan-provinces.svg?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Total Downloads](https://img.shields.io/packagist/dt/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Repo Size](https://img.shields.io/github/repo-size/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
-[![Repo Size](https://img.shields.io/packagist/l/el-factory/afghanistan-provinces?style=flat-square)](https://packagist.org/packages/el-factory/afghanistan-provinces)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/open-afghanistan/provinces.svg?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Total Downloads](https://img.shields.io/packagist/dt/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Repo Size](https://img.shields.io/github/repo-size/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Repo Size](https://img.shields.io/packagist/l/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
 
 
 **Introduction:**
 
-The Laravel package "afghanistan-provinces" provides essential resources for managing Afghanistan's provinces and districts within your Laravel application. This package includes models, migrations, seeders, and factories to facilitate the integration of Afghanistan's administrative divisions into your project.
+The Laravel package "provinces" provides essential resources for managing Afghanistan's provinces and districts within your Laravel application. This package includes models, migrations, seeders, and factories to facilitate the integration of Afghanistan's administrative divisions into your project.
 
 **Requirements:**
 
@@ -24,7 +24,7 @@ To use this package, ensure your Laravel application meets the following require
 You can effortlessly install the "afghanistan-provinces" package using Composer. Open your terminal and run the following command:
 
 ```bash
-composer require el-factory/afghanistan-provinces
+composer require open-afghanistan/afghanistan-provinces
 ```
 
 **Migrations:**
@@ -32,7 +32,7 @@ composer require el-factory/afghanistan-provinces
 After successful installation, you need to publish the migration files. Use the following Artisan command:
 
 ```bash
-php artisan vendor:publish --tag=afghanistan-provinces-migrations
+php artisan vendor:publish --tag=provinces-migrations
 ```
 
 This command will generate a migration file that sets up the necessary tables for provinces and districts in your database.
@@ -44,7 +44,7 @@ The package includes a handy `ProvincesSeeder` that populates all 34 Afghanistan
 ```php
 // DatabaseSeeder.php
 
-use ElFactory\AfghanistanProvinces\Database\Seeders\ProvincesSeeder;
+use OpenAfghanistan\Provinces\Database\Seeders\ProvincesSeeder;
 
 $this->call(ProvincesSeeder::class);
 ```
@@ -54,7 +54,7 @@ If you only wish to seed specific provinces, you can call their individual seede
 ```php
 // DatabaseSeeder.php
 
-use ElFactory\AfghanistanProvinces\Database\Seeders\KabulProvinceSeeder;
+use OpenAfghanistan\Provinces\Database\Seeders\KabulProvinceSeeder;
 
 $this->call(KabulProvinceSeeder::class);
 ```
@@ -66,7 +66,7 @@ To facilitate testing, this package provides factories for both provinces and di
 For provinces:
 
 ```php
-use ElFactory\AfghanistanProvinces\Models\Province;
+use OpenAfghanistan\Provinces\Models\Province;
 
 Province::factory()->create();
 ```
@@ -74,7 +74,7 @@ Province::factory()->create();
 For districts:
 
 ```php
-use ElFactory\AfghanistanProvinces\Models\District;
+use OpenAfghanistan\Provinces\Models\District;
 
 District::factory()->create();
 ```
@@ -86,6 +86,6 @@ Please run the `./vendor/bin/pint` command before you push any piece of code.
 
 **License:**
 
-The "afghanistan-provinces" package is open-source software distributed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use and modify it to suit your project's requirements.
+The "provinces" package is open-source software distributed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use and modify it to suit your project's requirements.
 
 Feel free to utilize this package to manage Afghanistan's administrative divisions effortlessly in your Laravel application.
