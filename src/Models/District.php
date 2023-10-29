@@ -2,10 +2,10 @@
 
 namespace OpenAfghanistan\Provinces\Models;
 
-use OpenAfghanistan\Provinces\Database\Factories\DistrictFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use OpenAfghanistan\Provinces\Database\Factories\DistrictFactory;
 
 class District extends Model
 {

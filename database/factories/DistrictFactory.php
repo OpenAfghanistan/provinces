@@ -2,9 +2,9 @@
 
 namespace OpenAfghanistan\Provinces\Database\Factories;
 
+use Illuminate\Database\Eloquent\Factories\Factory;
 use OpenAfghanistan\Provinces\Models\District;
 use OpenAfghanistan\Provinces\Models\Province;
-use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
  * @extends Factory<District>

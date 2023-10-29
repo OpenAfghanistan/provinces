@@ -2,8 +2,8 @@
 
 namespace OpenAfghanistan\Provinces\Database\Seeders;
 
-use OpenAfghanistan\Provinces\Models\Province;
 use Illuminate\Database\Seeder;
+use OpenAfghanistan\Provinces\Models\Province;
 
 class PaktiaProvinceSeeder extends Seeder
 {
