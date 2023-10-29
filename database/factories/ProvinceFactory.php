@@ -2,8 +2,8 @@
 
 namespace OpenAfghanistan\Provinces\Database\Factories;
 
-use OpenAfghanistan\Provinces\Models\Province;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use OpenAfghanistan\Provinces\Models\Province;
 
 class ProvinceFactory extends Factory
 {

@@ -2,10 +2,10 @@
 
 namespace OpenAfghanistan\Provinces\Models;
 
-use OpenAfghanistan\Provinces\Database\Factories\ProvinceFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use OpenAfghanistan\Provinces\Database\Factories\ProvinceFactory;
 
 class Province extends Model
 {
