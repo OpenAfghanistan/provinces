@@ -17,8 +17,13 @@ class SarePolProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'سرپل', 'en_name' => 'Sar-e Pul', 'is_center' => true],
+            ['name' => 'بلخاب', 'en_name' => 'Balkhab'],
+            ['name' => 'گوسفندی', 'en_name' => 'Gosfandi'],
+            ['name' => 'کوهستانات', 'en_name' => 'Kohistanat'],
+            ['name' => 'سنگچارک', 'en_name' => 'Sangcharak'],
+            ['name' => 'سیاد', 'en_name' => 'Sayyad'],
+            ['name' => 'سوزمان قلعه', 'en_name' => 'Sozma Qala'],
         ]);
     }
 }

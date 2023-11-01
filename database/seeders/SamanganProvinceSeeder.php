@@ -17,8 +17,13 @@ class SamanganProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'ایبک', 'en_name' => 'Aybak', 'is_center' => true],
+            ['name' => 'دره صوف بالا', 'en_name' => 'Dara-I-Sufi Balla'],
+            ['name' => 'دره صوف پایان', 'en_name' => 'Dara-I-Sufi Payan'],
+            ['name' => 'فیروز نخچیر', 'en_name' => 'Feroz Nakhchir'],
+            ['name' => 'حضرت سلطان', 'en_name' => 'Hazrati Sultan'],
+            ['name' => 'خرم و سرباغ', 'en_name' => 'Khuram Wa Sarbagh'],
+            ['name' => 'روی دو آب', 'en_name' => 'Ruyi Du Ab'],
         ]);
     }
 }

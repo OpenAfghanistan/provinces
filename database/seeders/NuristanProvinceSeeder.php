@@ -17,8 +17,14 @@ class NuristanProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'پارون', 'en_name' => 'Paroon', 'is_center' => true],
+            ['name' => 'برگیمتال', 'en_name' => 'Bargi Matal'],
+            ['name' => 'دو آب', 'en_name' => 'Du Ab'],
+            ['name' => 'کامدیش', 'en_name' => 'Kamdesh'],
+            ['name' => 'مندول', 'en_name' => 'Mandol'],
+            ['name' => 'نورگرام', 'en_name' => 'Nurgaram'],
+            ['name' => 'واما', 'en_name' => 'Wama'],
+            ['name' => 'وایگل', 'en_name' => 'Waygal'],
         ]);
     }
 }

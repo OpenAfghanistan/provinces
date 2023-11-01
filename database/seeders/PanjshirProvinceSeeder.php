@@ -17,8 +17,13 @@ class PanjshirProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'بازارک', 'en_name' => 'Bazarak', 'is_center' => true],
+            ['name' => 'انابه', 'en_name' => 'Anaba'],
+            ['name' => 'دره', 'en_name' => 'Darah'],
+            ['name' => 'خنج', 'en_name' => 'Khenj'],
+            ['name' => 'پریان', 'en_name' => 'Paryan'],
+            ['name' => 'روخه', 'en_name' => 'Rokha'],
+            ['name' => 'شوتل', 'en_name' => 'Shotul'],
         ]);
     }
 }

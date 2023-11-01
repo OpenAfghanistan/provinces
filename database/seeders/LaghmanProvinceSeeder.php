@@ -17,8 +17,11 @@ class LaghmanProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'مهترلام', 'en_name' => 'Mihtarlam', 'is_center' => true],
+            ['name' => 'الینگار', 'en_name' => 'Alingar'],
+            ['name' => 'الیشنگ', 'en_name' => 'Alishing'],
+            ['name' => 'دولت شاه', 'en_name' => 'Dawlat Shah'],
+            ['name' => 'قرغه یی', 'en_name' => 'Qarghayi'],
         ]);
     }
 }

@@ -17,8 +17,13 @@ class KunduzProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'کندوز', 'en_name' => 'Kunduz', 'is_center' => true],
+            ['name' => 'علي آباد', 'en_name' => 'Ali Abad'],
+            ['name' => 'ارچي', 'en_name' => 'Archi'],
+            ['name' => 'چار دره', 'en_name' => 'Chahar Dara'],
+            ['name' => 'امام صیب', 'en_name' => 'Imam Sahib'],
+            ['name' => 'خان آباد', 'en_name' => 'Khan Abad'],
+            ['name' => 'قلعه ذال', 'en_name' => 'Qalay-I-Zal'],
         ]);
     }
 }

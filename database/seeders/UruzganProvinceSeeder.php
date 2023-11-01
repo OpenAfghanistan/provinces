@@ -17,8 +17,11 @@ class UruzganProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'ترینکوت', 'en_name' => 'Tarin Kowt', 'is_center' => true],
+            ['name' => 'چوره', 'en_name' => 'Chora'],
+            ['name' => 'دهراوود', 'en_name' => 'Deh Rahwod'],
+            ['name' => 'ارزگان خاص', 'en_name' => 'Khas Uruzgan'],
+            ['name' => 'شهید حساس', 'en_name' => 'Shahidi Hassas'],
         ]);
     }
 }
