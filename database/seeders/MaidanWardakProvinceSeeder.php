@@ -17,8 +17,15 @@ class MaidanWardakProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'میدان شهر', 'en_name' => 'Maydan Shahr', 'is_center' => true],
+            ['name' => 'چک وردگ', 'en_name' => 'Chaki Wardak'],
+            ['name' => 'دایمیرداد', 'en_name' => 'Day Mirdad'],
+            ['name' => 'حصۀاول بهسود', 'en_name' => 'Hisa-I-Awali Bihsud'],
+            ['name' => 'جغتو', 'en_name' => 'Jaghatu'],
+            ['name' => 'جلریز', 'en_name' => 'Jalrez'],
+            ['name' => 'مرکز بهسود', 'en_name' => 'Markazi Bihsud'],
+            ['name' => 'نرخ', 'en_name' => 'Nirkh'],
+            ['name' => 'سید آباد', 'en_name' => 'Saydabad'],
         ]);
     }
 }

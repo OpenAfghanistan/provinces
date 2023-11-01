@@ -17,8 +17,20 @@ class HelmandProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'لشکرگاه', 'en_name' => 'Lashkargah', 'is_center' => true],
+            ['name' => 'باغران', 'en_name' => 'Baghran'],
+            ['name' => 'دیشو', 'en_name' => 'Dishu'],
+            ['name' => 'گرمسیر', 'en_name' => 'Garmsir'],
+            ['name' => 'گریشک', 'en_name' => 'Gerishk'],
+            ['name' => 'کجکی', 'en_name' => 'Kajaki'],
+            ['name' => 'خانیشین', 'en_name' => 'Khanashin'],
+            ['name' => 'موسی قلعه', 'en_name' => 'Musa Qala'],
+            ['name' => 'نادعلی', 'en_name' => 'Nad Ali'],
+            ['name' => 'ناوه بارکزای', 'en_name' => 'Nawa-I-Barakzayi'],
+            ['name' => 'نوزاد', 'en_name' => 'Nawzad'],
+            ['name' => 'سنگین', 'en_name' => 'Sangin'],
+            ['name' => 'واشیر', 'en_name' => 'Washir'],
+            ['name' => 'شورآبک', 'en_name' => 'Shurabak'],
         ]);
     }
 }

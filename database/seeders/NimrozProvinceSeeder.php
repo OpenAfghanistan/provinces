@@ -17,8 +17,11 @@ class NimrozProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            // Add districts here...
-            // ['name' => 'نام', 'en_name' => 'Name'],
+            ['name' => 'زرنچ', 'en_name' => 'Zaranj', 'is_center' => true],
+            ['name' => 'چهاربورجه', 'en_name' => 'Chahar Burjak'],
+            ['name' => 'چخانسور', 'en_name' => 'Chakhansur'],
+            ['name' => 'کنگ', 'en_name' => 'Kang'],
+            ['name' => 'خاش رود', 'en_name' => 'Khash Rod'],
         ]);
     }
 }
