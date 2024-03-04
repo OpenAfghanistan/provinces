@@ -1,9 +1,9 @@
 # Laravel Package: Afghanistan Provinces & Districts
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/OpenAfghanistan/provinces.svg?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
-[![Total Downloads](https://img.shields.io/packagist/dt/OpenAfghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/open-afghanistan/provinces.svg?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Total Downloads](https://img.shields.io/packagist/dt/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
 [![Repo Size](https://img.shields.io/github/repo-size/OpenAfghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
-[![Repo Size](https://img.shields.io/packagist/l/OpenAfghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
+[![Repo Size](https://img.shields.io/packagist/l/open-afghanistan/provinces?style=flat-square)](https://packagist.org/packages/open-afghanistan/provinces)
 
 
 **Introduction:**
