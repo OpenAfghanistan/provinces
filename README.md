@@ -30,7 +30,7 @@ composer require open-afghanistan/provinces
 After successful installation, you need to publish the migration files. Use the following Artisan command:
 
 ```bash
-php artisan vendor:publish --tag=provinces-migrations
+php artisan vendor:publish --tag=provinces-migration
 ```
 
 This command will generate a migration file that sets up the necessary tables for provinces and districts in your database.
