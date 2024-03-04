@@ -22,7 +22,7 @@ To use this package, ensure your Laravel application meets the following require
 You can effortlessly install the "afghanistan-provinces" package using Composer. Open your terminal and run the following command:
 
 ```bash
-composer require open-afghanistan/afghanistan-provinces
+composer require open-afghanistan/provinces
 ```
 
 **Migrations:**
