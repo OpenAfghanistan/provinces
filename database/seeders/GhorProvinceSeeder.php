@@ -17,7 +17,7 @@ class GhorProvinceSeeder extends Seeder
 
         // Create districts
         $province->districts()->createMany([
-            ['name' => 'چغچران', 'en_name' => 'Chaghcharan', 'is_center' => true],
+            ['name' => 'فیروزکوه', 'en_name' => 'Firozkoh', 'is_center' => true],
             ['name' => 'چارسده', 'en_name' => 'Charsada'],
             ['name' => 'دولت یار', 'en_name' => 'Dawlat Yar'],
             ['name' => 'دولینه', 'en_name' => 'Du Layna'],
