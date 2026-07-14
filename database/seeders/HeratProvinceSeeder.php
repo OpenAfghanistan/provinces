@@ -5,14 +5,14 @@ namespace OpenAfghanistan\Provinces\Database\Seeders;
 use Illuminate\Database\Seeder;
 use OpenAfghanistan\Provinces\Models\Province;
 
-class HeartProvinceSeeder extends Seeder
+class HeratProvinceSeeder extends Seeder
 {
     public function run(): void
     {
         // Create province
         $province = Province::create([
             'name' => 'هرات',
-            'en_name' => 'Heart',
+            'en_name' => 'Herat',
         ]);
 
         // Create districts

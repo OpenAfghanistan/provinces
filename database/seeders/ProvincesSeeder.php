@@ -14,7 +14,7 @@ class ProvincesSeeder extends Seeder
         // call all seeders exits in seeder folder
         $this->call([
             KabulProvinceSeeder::class,
-            HeartProvinceSeeder::class,
+            HeratProvinceSeeder::class,
             BadakhshanProvinceSeeder::class,
             KandaharProvinceSeeder::class,
             GhazniProvinceSeeder::class,
